@@ -29,15 +29,19 @@ while(1):
         prev_time = loc_time
     if count > 30:
         count = 0
-        r = requests.get("http://api.openweathermap.org/data/2.5/weather", params = {'q' : 'Wetteren', 'appid' : weather_api_key})
-        weather_data = json.loads(r.text)
-        temp = int(round(weather_data[u'main'][u'temp'])-273.15)
-        if temp < 0:
-            Nixie_disp.setNeon([0, 1])
-        else:
-            Nixie_disp.setNeon([0, 0])
-        Nixie_disp.display_number(abs(temp), leading_zeros=False)
-        time.sleep(5)
+        try:
+            r = requests.get("http://api.openweathermap.org/data/2.5/weather", params = {'q' : 'Wetteren', 'appid' : weather_api_key})
+        except:
+            r = "NO_INTERNET"
+        if not(r == "NO_INTERNET"):
+            weather_data = json.loads(r.text)
+            temp = int(round(weather_data[u'main'][u'temp'])-273.15)
+            if temp < 0:
+                Nixie_disp.setNeon([0, 1])
+            else:
+                Nixie_disp.setNeon([0, 0])
+            Nixie_disp.display_number(abs(temp), leading_zeros=False)
+            time.sleep(5)
     if count2 > avoid_poisoning_interval:
         for i in range(0, 10*111111, 111111):
             Nixie_disp.display_number(i)
