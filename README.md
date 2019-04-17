@@ -94,6 +94,5 @@ This project is licensed under the MIT License
 
 ## Acknowledgments
 
-* This project was inspired by and partly based on the New Precise Nixie Clock from the 
-* Inspiration
-* etc
+* This project was inspired by and partly based on the New Precise Nixie Clock from the May 2016 issue of Elektor Magazine [(link)](https://www.elektormagazine.com/magazine/elektor-201605/28960)
+* IoT connectivity inspired by EEVBlog Nixie Tube Display Project [(link)](https://www.youtube.com/playlist?list=PLvOlSehNtuHutdg1kZkG7aAYhjoJnk2fc)
