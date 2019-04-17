@@ -9,6 +9,7 @@ import requests
 import json
 from random import randint
 
+weather_location = 'Wetteren'
 weather_api_key = '526537c20da268624d9eab82a24f4ceb'
 
 
@@ -30,7 +31,7 @@ while(1):
     if count > 30:
         count = 0
         try:
-            r = requests.get("http://api.openweathermap.org/data/2.5/weather", params = {'q' : 'Wetteren', 'appid' : weather_api_key})
+            r = requests.get("http://api.openweathermap.org/data/2.5/weather", params = {'q' : weather_location, 'appid' : weather_api_key})
         except:
             r = "NO_INTERNET"
         if not(r == "NO_INTERNET"):
