@@ -31,7 +31,7 @@ while(1):
     if count > 30:
         count = 0
         try:
-            r = requests.get("http://api.openweathermap.org/data/2.5/weather", params = {'q' : weather_location, 'appid' : weather_api_key})
+            r = requests.get("http://api.openweathermap.org/data/2.5/weather", params = {'q' : weather_location, 'appid' : weather_api_key}, timeout=0.1)
         except:
             r = "NO_INTERNET"
         if not(r == "NO_INTERNET"):
