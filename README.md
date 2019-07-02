@@ -13,8 +13,8 @@ Before you begin, make sure you have a Raspberry Pi up and running with the late
 
 Run an update and upgrade routine to make sure you have all of the latest packages installed:
 ```bash
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt update
+sudo apt upgrade
 ```
 Because the hardware uses almost all of the GPIO pins of the RPi, including ones normally reserved for serial, I2C & SPI communication, it is necessary to disable these interfaces using the raspi-config menu:
 ```bash
