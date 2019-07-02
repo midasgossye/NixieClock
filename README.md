@@ -32,15 +32,20 @@ Serial
 
 In order to access the GPIO pins of the RPi, the program uses the RPi.GPIO module. Make sure you have the latest version installed:
 ```bash
-sudo apt-get install python-rpi.gpio
+sudo apt install python-rpi.gpio
 ```
 Next, make sure you have pip installed:
 ```bash
-sudo apt-get install python-pip
+sudo apt install python-pip
 ```
-Finally, use pip to install the requests module:
+Use pip to install the requests module:
 ```bash
 pip install requests
+```
+
+Finally, make sure you have git installed:
+```bash
+sudo apt install git
 ```
 
 ### Installing
