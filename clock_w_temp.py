@@ -5,7 +5,7 @@ Standard Nixie Clock program
 Description: Displays the current local time and temperature from the openweatherAPI
 
 
-Created on Sat May 19 13:40:46 2018
+Modified on Tue July 2 14:23:46 2019
 @author: midas
 """
 from NixieDriver import Nixie
@@ -15,8 +15,8 @@ import json
 from random import randint
 
 temperature_interval = 30                               # Set temperature display interval (in secs)
-weather_location = 'Wetteren'                           # Set weather location (city)
-weather_api_key = '526537c20da268624d9eab82a24f4ceb'    # OpenWeather API key
+weather_location = 'Ghent'                              # Set weather location (city)
+weather_api_key = 'PUT YOUR OWN API KEY HERE'           # OpenWeather API key
 
 
 # Use the openweathermap API to get the local temperature in deg C
