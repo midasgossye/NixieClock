@@ -9,8 +9,6 @@ Created on Sat May 19 13:40:46 2018
 """
 from NixieDriver import Nixie
 import time
-import requests
-import json
 from random import randint
 
 avoid_poisoning_interval = randint(600, 1200) # Set cathode poisoning prevention routine interval
