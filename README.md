@@ -91,7 +91,7 @@ Give an example
 ## Authors
 
 * **Midas Gossye** - [Github](https://github.com/midasgossye)
-* **Joshua Spaander** - 
+* **Joshua Spaander** - [Github](https://github.com/joshuaspaander)
 
 ## License
 
