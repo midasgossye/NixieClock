@@ -81,11 +81,12 @@ Next, select I2: Change TimeZone
 
 Follow the wizard to change the timezone.
 
-### Set weather location
+### Set-up weather API
+In order to get the weather API functionality to work, you first need to register an account at [openweathermap](https://openweathermap.org/api). After you have signed up for a free account, you will recieve an API-key that needs to be inserted into the *clock_w_temp.py* program. You can also change the weather location by typing in your closest city name.
 
-In order to set the correct location for the weather data, 
-```
-Give an example
+```python
+weather_location = 'Ghent'                              # Set weather location (city)
+weather_api_key = 'PUT YOUR OWN API KEY HERE'           # OpenWeather API key
 ```
 
 ## Authors
