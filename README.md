@@ -4,6 +4,8 @@
 
 This github repo contains the software code for a Raspberry pi powered Nixie Clock. This software was written to power the 6 digit IN-12 Nixie Tube Clock based on a Raspberry Pi Zero W, but can easily be ported to cater other configurations of Nixie tubes and RPi models. The schematics, board layout and BOM files for the accompanying hardware can be found in the following repo: https://github.com/midasgossye/NixieClockHardware/
 
+Would you love to have a nixie clock at home that you can reprogram yourselves? You can buy one of my homebuilt nixie clocks with IN-12A tubes fully assembled, working and preloaded with this software from tindie: [link](https://www.tindie.com/products/midasgossye/unique-6-digit-in-12-nixie-clock-with-wifi/)
+
 
 ## Getting Started
 
