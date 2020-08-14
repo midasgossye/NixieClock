@@ -6,6 +6,8 @@ This github repo contains the software code for a Raspberry pi powered Nixie Clo
 
 Would you love to have a nixie clock at home that you can reprogram yourselves? You can buy one of my homebuilt nixie clocks with IN-12A tubes fully assembled, working and preloaded with this software from tindie: [link](https://www.tindie.com/products/midasgossye/unique-6-digit-in-12-nixie-clock-with-wifi/)
 
+<a href="https://www.tindie.com/products/16638/"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>
+
 
 ## Getting Started
 
